@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Jan  5 19:32:15 2017
 
-@author: KANHAIYA
-"""
 def readseq(inputfile):
     with open(inputfile,'r') as f:
         seq = f.read()
